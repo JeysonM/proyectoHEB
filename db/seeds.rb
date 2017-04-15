@@ -19,9 +19,9 @@ user = User.find_by(email: "general@gmail.com")
 #(user.add_role :company) # sets a global role
 
 #Corinsa usuario
-User.create(email: "ceides97@hotmail.com", password: "QAZxsw2", role: "Empresa",password_confirmation: "QAZxsw2", name: "Cesar", last_name: "Delgado", department: "La Paz", created_at: Time.now , updated_at: Time.now, company_id: 2,   )
-user = User.find_by(email: "ceides97@hotmail.com")
-(user.add_role :company) # sets a global role
+#User.create(email: "ceides97@hotmail.com", password: "QAZxsw2", role: "Empresa",password_confirmation: "QAZxsw2", name: "Cesar", last_name: "Delgado", department: "La Paz", created_at: Time.now , updated_at: Time.now, company_id: 2,   )
+#user = User.find_by(email: "ceides97@hotmail.com")
+#(user.add_role :company) # sets a global role
 
 Advertisement.create(description: "Producto 1", id_Company: 1, isAccepted: true, isPublicized: true, publicationDate: "10-02-2017", expirationDate: "20-08-2019", created_at: "09-02-2017", state: "Aceptada", reason: "", companyName: "YPFB refinacion")
 Advertisement.create(description: "Producto 2", id_Company: 1, isAccepted: true, isPublicized: true, publicationDate: "10-02-2017", expirationDate: "20-08-2019", created_at: "09-02-2017", state: "Aceptada", reason: "", companyName: "YPFB refinacion")
