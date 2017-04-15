@@ -14,9 +14,9 @@ user = User.find_by(email: "general@gmail.com")
 (user.add_role :general) # sets a global role
 
 #YPFB usuario
-User.create(email: "dany.gaara.ds@gmail.com", password: "QAZxsw2", role: "Empresa",password_confirmation: "QAZxsw2", name: "Daniel", last_name: "Illanes", department: "Cochabamba", created_at: Time.now , updated_at: Time.now, company_id: 1,   )
-user = User.find_by(email: "dany.gaara.ds@gmail.com")
-(user.add_role :company) # sets a global role
+#User.create(email: "dany.gaara.ds@gmail.com", password: "QAZxsw2", role: "Empresa",password_confirmation: "QAZxsw2", name: "Daniel", last_name: "Illanes", department: "Cochabamba", created_at: Time.now , updated_at: Time.now, company_id: 1,   )
+#user = User.find_by(email: "dany.gaara.ds@gmail.com")
+#(user.add_role :company) # sets a global role
 
 #Corinsa usuario
 User.create(email: "ceides97@hotmail.com", password: "QAZxsw2", role: "Empresa",password_confirmation: "QAZxsw2", name: "Cesar", last_name: "Delgado", department: "La Paz", created_at: Time.now , updated_at: Time.now, company_id: 2,   )
@@ -1024,20 +1024,20 @@ La licencia de actividad o apertura de negocio es intransferible y pertenece al 
 
 #Productos YPFB
 Product.create(commercial_name: "SÚPER ESPECIAL 2 SAE 40", feature: nil, description:"El aceite SÚPER ESPECIAL 2 SAE 40 API SG/CD es un lubricante monogrado elaborado con aceites base de alta calidad para motores a gasolina.
-	Su formulación permite controlar mejor los depósitos de carbón en las anillas y en la cámara de combustión.", 
-	image_path: "/image_store/product1.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:21:56.830415", updated_at: "2017-04-03 18:21:56.849416", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 55)       
+	Su formulación permite controlar mejor los depósitos de carbón en las anillas y en la cámara de combustión.",
+	image_path: "/image_store/product1.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:21:56.830415", updated_at: "2017-04-03 18:21:56.849416", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 55)
 
-Product.create(commercial_name: "EXTREMG12 SAE 10W30 API SN / ILSAC GF", feature: nil, description:"EXTREM G12 SAE 10W30 es un lubricante multigrado producido con aceite base altamente refinado y aditivos de última tecnología para obtener un producto que cumpla con los requerimientos de motores diseñados para operar con alta tecnología.", 
-	image_path: "/image_store/product2.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 68)       
+Product.create(commercial_name: "EXTREMG12 SAE 10W30 API SN / ILSAC GF", feature: nil, description:"EXTREM G12 SAE 10W30 es un lubricante multigrado producido con aceite base altamente refinado y aditivos de última tecnología para obtener un producto que cumpla con los requerimientos de motores diseñados para operar con alta tecnología.",
+	image_path: "/image_store/product2.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 68)
 
 Product.create(commercial_name: "LUB-2T", feature: nil, description:"Es un lubricante elaborado con aceites base y aditivos de alta calidad destinado al uso en motores de dos tiempos a gasolina, enfriados por aire.",
-	image_path: "/image_store/product3.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 68)       
+	image_path: "/image_store/product3.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 68)
 
 Product.create(commercial_name: "DIESEL MULTIGRADO PLUS 2 SAE 20W50 ", feature: nil, description:"El aceite DIESEL MULTIGRADO PLUS 2 SAE 20W50 es un lubricante multigrado elaborado con aceites base y aditivos de alta calidad obteniendo un lubricante de alta calidad y alto rendimiento para motores a diésel.",
-	image_path: "/image_store/product4.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 664)       
+	image_path: "/image_store/product4.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 664)
 
 Product.create(commercial_name: "DIESEL MULTIGRADO TURBO SAE 15W40", feature: nil, description:"El aceite DIESEL PREMIUM SAE 40, API CF/SJ  es un lubricante monogrado elaborado con aceites base de alta calidad para motores a diésel, permitiendo controlar la formación de depósitos de carbón en las anillas y en la cámara de combustión.",
-	image_path: "/image_store/product5.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 55)       
+	image_path: "/image_store/product5.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 55)
 
 Product.create(commercial_name: "MULTITRAPOIDAL PARCIALMENTE SINTÉTICO S", feature: nil, description:"El aceite es un lubricante multigrado elaborado con aceites base de alta calidad y aditivos químicos de alto rendimiento, obteniendo como resultado un lubricante sobresaliente para transmisiones manuales",
-	image_path: "/image_store/product6.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 55)       
+	image_path: "/image_store/product6.gif", tariff_position: "2710.19.38.00 0", visibility_state: nil, company_id: 1, created_at: "2017-04-03 18:24:40.891799", updated_at: "2017-04-03 18:32:01.706528", certification: "Extendidos por la API (American Petroleum Institute)", category_id: 55)
